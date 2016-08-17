@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "variant=0": { "model": "kc:metablock/planks/planks_0" },
+        "variant=1": { "model": "kc:metablock/planks/planks_1" },
+        "variant=2": { "model": "kc:metablock/planks/planks_2" },
+        "variant=3": { "model": "kc:metablock/planks/planks_3" },
+        "variant=4": { "model": "kc:metablock/planks/planks_4" },
+        "variant=5": { "model": "kc:metablock/planks/planks_5" },
+        "variant=6": { "model": "kc:metablock/planks/planks_6" },
+        "variant=7": { "model": "kc:metablock/planks/planks_7" }
+    }
+}

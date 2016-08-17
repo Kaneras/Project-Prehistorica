@@ -26,7 +26,7 @@ public class KCBlockMeta extends Block {
 	public KCBlockMeta(Material materialIn, int variants, String name) {
 		super(materialIn);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, Integer.valueOf(0)));
-		this.variants = variants;
+		this.variants = 2;
 		this.name = name;
 	}
 

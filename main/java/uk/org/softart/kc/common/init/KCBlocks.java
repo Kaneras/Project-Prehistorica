@@ -8,7 +8,6 @@ import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import uk.org.softart.kc.common.blocks.BlockStandard;
-import uk.org.softart.kc.common.blocks.KCBlockLog;
 import uk.org.softart.kc.common.blocks.KCBlockMeta;
 import uk.org.softart.kc.common.items.ItemBlockMeta;
 
@@ -24,14 +23,23 @@ public class KCBlocks {
 	public static Block hardstone;
 	public static Block limestoneBlock;
 	
+	public static Block[] gravel = new Block[2];
+	
+	public static Block triassicSilt;
+	
 	public static void init() {
 		seaAmber = addBlock(new BlockStandard(Material.rock).setCreativeTab(KCCreativeTabs.tabBlocks), "blockSeaAmber");
-		triassicStone = addBlock(new BlockStandard(Material.rock).setCreativeTab(KCCreativeTabs.tabBlocks), "triassicStone");
+		triassicStone = addBlock(new KCBlockMeta(Material.rock, 2, "triassicStone").setCreativeTab(KCCreativeTabs.tabBlocks), "triassicStone");
 		leaves = addBlock(new KCBlockMeta(Material.leaves, 8, "leaves").setCreativeTab(KCCreativeTabs.tabBlocks), "leaves");
 		planks = addBlock(new KCBlockMeta(Material.wood, 8, "planks").setCreativeTab(KCCreativeTabs.tabBlocks), "planks");
 		triassicSand = addBlock(new BlockFalling().setCreativeTab(KCCreativeTabs.tabBlocks), "triassicSand");
 		hardstone = addBlock(new BlockStandard(Material.rock).setCreativeTab(KCCreativeTabs.tabBlocks), "hardstone");
 		limestoneBlock = addBlock(new BlockStandard(Material.rock).setCreativeTab(KCCreativeTabs.tabBlocks), "limestoneBlock");
+		
+		gravel[0] = addBlock(new BlockFalling().setCreativeTab(KCCreativeTabs.tabBlocks), "triassicGravel");
+		gravel[1] = addBlock(new BlockFalling().setCreativeTab(KCCreativeTabs.tabBlocks), "jurassicGravel");
+		
+		triassicSilt = addBlock(new KCBlockMeta(Material.clay, 3, "triassicSilt").setCreativeTab(KCCreativeTabs.tabBlocks), "triassicSilt");
 		
 	}
 

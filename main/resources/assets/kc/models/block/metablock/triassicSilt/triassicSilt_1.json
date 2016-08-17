@@ -1,0 +1,9 @@
+{
+    "parent": "kc:block/metablock/triassicSilt/silt",
+    "textures": {
+        "particle": "kc:blocks/triassicSilt",
+        "bottom": "kc:blocks/triassicSilt",
+        "top": "kc:blocks/triassicSiltMossy",
+        "side": "kc:blocks/triassicSiltMossy_side"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "variant=0": { "model": "kc:metablock/triassicSilt/triassicSilt_0" },
+        "variant=1": [ 
+            { "model": "kc:metablock/triassicSilt/triassicSilt_1" },
+            { "model": "kc:metablock/triassicSilt/triassicSilt_1", "y": 90 },
+            { "model": "kc:metablock/triassicSilt/triassicSilt_1", "y": 180 },
+            { "model": "kc:metablock/triassicSilt/triassicSilt_1", "y": 270 }
+        ],
+        "variant=2": [
+            { "model": "kc:metablock/triassicSilt/triassicSilt_2" },
+            { "model": "kc:metablock/triassicSilt/triassicSilt_2", "y": 90 },
+            { "model": "kc:metablock/triassicSilt/triassicSilt_2", "y": 180 },
+            { "model": "kc:metablock/triassicSilt/triassicSilt_2", "y": 270 }
+        ]
+    }
+}

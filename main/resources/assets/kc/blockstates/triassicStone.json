@@ -1,5 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "kc:triassicStone" }
+        "variant=0": { "model": "kc:metablock/triassicStone/triassicStone_0" },
+        "variant=1": { "model": "kc:metablock/triassicStone/triassicStone_1" }
     }
 }
